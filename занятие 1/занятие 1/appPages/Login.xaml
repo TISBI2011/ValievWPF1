@@ -1,0 +1,21 @@
+﻿<Page x:Class="занятие_1.appPages.Login"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:занятие_1.appPages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Login">
+
+    <Grid>
+        <StackPanel>
+            <Label Content="Login" FontSize="25" />
+            <Label Content="Username"/>
+            <TextBox x:Name="TBusername"/>
+            <Label Content="Password"/>
+            <PasswordBox x:Name="TBpass"/>
+            <Button x:Name="Bsubmit" Click="Bsubmit_Click" Content="submit" Margin="0 10"/>
+        </StackPanel>
+    </Grid>
+</Page>
